@@ -1,0 +1,2 @@
+Please run installengdemo.php or installjap.php first for creating a database.
+Then you may run vokieng.php for the german/english vocabulair training tool (demo) or run vokijap.php for the german/japanese version.
