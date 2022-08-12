@@ -1,2 +1,3 @@
-Please run installengdemo.php or installjap.php first for creating a database.
-Then you may run vokieng.php for the german/english vocabulair training tool (demo) or run vokijap.php for the german/japanese version.
+Please run installvoki.php first for creating a database.
+Create a IMG folder and unzipped the file img.zip.
+Then you may run voki.php. Enjoy!
