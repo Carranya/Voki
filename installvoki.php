@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <title>Voki Breate Japanisch</title>
+    <title>Voki Create Japanisch</title>
 </head>
 <body>
 
