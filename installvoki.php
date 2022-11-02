@@ -10,7 +10,7 @@
 
     $table = "jp_verb_1";
 
-    $con = new mysqli ("", "root");
+    $con = new mysqli ("localhost", "root");
     $sql = "CREATE DATABASE IF NOT EXISTS voki";
     $con->query($sql);
     $con->select_db("voki");
