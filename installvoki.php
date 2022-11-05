@@ -8,9 +8,13 @@
 
     <?php
 
+    require_once "settings.php";
+    // require_once "../../settings/settings.php";
+
     $table = "jp_verb_1";
 
-    $con = new mysqli ("localhost", "root");
+    $con = new mysqli($DB['hostname'], $DB['username'], $DB['password']);
+    // $con = new mysqli ("localhost", "root");
     $sql = "CREATE DATABASE IF NOT EXISTS voki";
     $con->query($sql);
     $con->select_db("voki");
