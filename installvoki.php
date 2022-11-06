@@ -9,16 +9,15 @@
     <?php
 
     // require_once "settings.php";
-    require_once "../../settings/settings.php";
+    require_once "../../../settings/settings.php";
 
-    
-    $con = new mysqli($DB['hostname'], $DB['username'], $DB['password'], $DB['database']);
+    $con = new mysqli($DB['hostname'], $DB['username'], $DB['password']);
     // $con = new mysqli ("localhost", "root");
-    /* $sql = "CREATE DATABASE IF NOT EXISTS voki";
+    $sql = "CREATE DATABASE IF NOT EXISTS voki";
     $con->query($sql);
     $con->select_db("voki");
     
-    echo "<p>Datenbank voki erstellt</p>"; */
+    echo "<p>Datenbank voki erstellt</p>";
     
     $table = "jp_verb_1";
 

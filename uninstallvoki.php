@@ -8,7 +8,7 @@
     <?php
 
     // require_once "settings.php";
-    require_once "../../settings/settings.php";
+    require_once "../../../settings/settings.php";
 
     $con = new mysqli($DB['hostname'], $DB['username'], $DB['password'], $DB['database']);
 
