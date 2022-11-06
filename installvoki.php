@@ -8,8 +8,8 @@
 
     <?php
 
-    require_once "settings.php";
-    // require_once "../../settings/settings.php";
+    // require_once "settings.php";
+    require_once "../../settings/settings.php";
 
     $table = "jp_verb_1";
 
